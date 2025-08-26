@@ -1,0 +1,215 @@
+body {
+  margin: 10px;
+  font-family: 'Segoe UI';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.info-bar {
+  background-color: rgb(43, 43, 43);
+}
+
+.side {
+  display: inline-block;
+}
+
+.side-bar {
+  background-color: rgb(43, 43, 43);
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  margin: 0;
+}
+
+.main {
+  margin-left: 360px;
+}
+
+.container {
+  display: inline-flex;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(70, 70, 70);
+  border-radius: 10px;
+  width: auto;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.container p {
+  color: white;
+}
+
+.container .display {
+  background-color: rgb(0, 0, 0);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.container .label {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.container .faCircle {
+  vertical-align: middle;
+  display: inline-flex;
+}
+
+.user-container {
+  position: absolute;
+}
+
+.user-container .display {
+  min-width: 100px;
+  font-size: 19px;
+}
+
+.num-online-container {
+  display: inline-flex;
+  width: 80px;
+  margin-left: 250px;
+  margin-top: 10px;
+  height: 30px;
+  position: absolute;
+  background-color: rgb(28, 28, 28);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.num-online-container .display {
+  display: inline-flex;
+  min-width: 50px;
+  color: white;
+  font-size: 19px;
+  margin: 0;
+}
+
+.num-online-container .label {
+  display: inline-flex;
+  margin-top: 7px;
+  margin-right: 14px;
+  margin-left: 5px;
+}
+
+.room-name-container {
+  margin-top: 60px;
+}
+
+.room-name-container .display {
+  font-size: 18.5px;
+}
+
+.room-list-container {
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(70, 70, 70);
+  border-radius: 15px;
+}
+
+.room-list-container .label {
+  color: white;
+}
+
+.room-list-container .roomlist {
+  background-color: black;
+  color: white;
+  text-align: left;
+  display: inline-block;
+  min-width: 80%;
+  border-radius: 15px;
+  overflow: auto;
+  height: 500px;
+  margin-bottom: 10px;
+}
+
+.room-list-container .display {
+  min-width: 60px;
+}
+
+.chatlog {
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 600px;
+  height: 300px;
+  overflow: auto;
+}
+
+.message {
+  width: auto;
+  margin: 5px;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+.sender {
+  margin: 3px;
+  display: inline-block;
+}
+
+.message .data {
+  display: inline-block;
+  margin: 3px;
+  margin-left: 5px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.server-msg {
+  color: rgb(93, 93, 93);
+  font-weight: 700;
+}
+
+.self {
+  color: rgb(0, 0, 255);
+  font-weight: 700;
+}
+
+.other {
+  color: rgb(255, 0, 0);
+  font-weight: 700;
+}
+
+.in-room {
+  background-color: rgb(196, 196, 196);
+}
+
+.message-input {
+  width: 149px;
+}
+
+.message-btn {
+  margin-left: 20px;
+}
+
+.file-input-container {
+  position: absolute;
+  margin-left: 155px;
+  margin-top: 3px;
+}
+
+.file-icon {
+  margin-bottom: 1px;
+  margin-left: 5px;
+  color: rgb(58, 58, 58);
+  background-color: white;
+}
+
+.file-input {
+  position: absolute;
+  opacity: 0;
+  width: 20px;
+  height: 19px;
+}
+
+.message-input {
+  width: 150px;
+}
+
+.room-input {
+  width: 150px;
+}
