@@ -22,13 +22,6 @@ One device acts as the **server**, and another acts as the **client**. Messages 
 
 ---
 
-## 📂 Project Structure
-├── client/ # React front-end
-│ ├── react-app/
-│   ├── public/
-│   ├── src/
-└── server/ # Node.js + Socket.IO back-end
-
 ## ▶️ Getting Started
 
 ### Prerequisites
